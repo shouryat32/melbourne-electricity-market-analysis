@@ -46,6 +46,7 @@ melbourne-electricity-market-analysis/
 │
 ├── docs/
 │   └── TABLE_SCHEMA_REFERENCE.md         ← table schema reference
+│   └── Ml Models         ← Ml model info
 │
 └── README.md                              ← main repo readme
 ```
