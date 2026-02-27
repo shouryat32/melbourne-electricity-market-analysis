@@ -37,25 +37,17 @@ After hearing the same debate over and over, I decided to stop speculating and l
 melbourne-electricity-market-analysis/
 │
 ├── notebooks/
-│   ├── 01_historical_data_download.ipynb      # Bronze — 3yr data ingestion
-│   ├── 02_bronze_generation_aggregation.ipynb  # Bronze — aggregate to hourly
-│   ├── 03_silver_layer_build.ipynb             # Silver — join & transform
-│   ├── 04_gold_layer_analytics.ipynb           # Gold — business insights
-│   └── 05_bronze_validation.ipynb              # Data quality checks
-│
-├── models/
-│   ├── price_model_xgboost/
-│   ├── demand_model_catboost/
-│   └── spike_classifier_xgboost/
-│
-├── api/
-│   └── main.py                                 # FastAPI serving layer
+│   ├── README.md                          ← notebook documentation
+│   ├── phase1_setup.ipynb                 ← live data collection (hourly scheduler)
+│   ├── historical_data.ipynb              ← one-time 3yr backfill
+│   ├── Energy_silver_layer.ipynb          ← incremental nightly build (2am)
+│   ├── Energy_gold_layer.ipynb            ← aggregations & insights
+│   └── ml_model.ipynb                     ← price, demand & spike models
 │
 ├── docs/
-│   ├── NOTEBOOKS_DOCUMENTATION.md
-│   └── TABLE_SCHEMA_REFERENCE.md
+│   └── TABLE_SCHEMA_REFERENCE.md         ← table schema reference
 │
-└── README.md
+└── README.md                              ← main repo readme
 ```
 
 ---
