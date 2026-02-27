@@ -6,9 +6,9 @@ Quick reference for every table in the pipeline — what it contains, key column
 
 ---
 
-## Which table should I use?
+## Tables
 
-| What you're trying to do | Table |
+| Purpose | Table |
 |--------------------------|-------|
 | General analysis or dashboards | `silver_energy_melbourne_extended` |
 | Hourly patterns across 3 years | `gold_hourly_summary` |
@@ -85,7 +85,7 @@ Live data appended every hour by `phase1_setup`. Same structure as the historica
 
 ## Silver Layer — Analytics-Ready
 
-### `silver_energy_melbourne_extended` ⭐
+### `silver_energy_melbourne_extended` 
 The primary table. All three bronze sources joined on datetime, cleaned to hourly resolution, with derived features added. 26,156 records.
 
 | Column | Type | Notes |
