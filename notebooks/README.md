@@ -151,4 +151,4 @@ Builds cyclical time features (sin/cos encoding for hour, day of week, month) an
 
 ---
 
-*Full table schema reference is in [TABLE_SCHEMA_REFERENCE.md](../docs/TABLE_SCHEMA_REFERENCE.md)*
+*Full table schema reference is in [TABLE_SCHEMA_REFERENCE.md](../docs/Table schema reference.md)*
