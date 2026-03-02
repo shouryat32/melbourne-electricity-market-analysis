@@ -54,11 +54,7 @@ melbourne-electricity-market-analysis/
 ---
 
 ## Dashboard
-
-The Power BI dashboard covers four pages — Price Intelligence, Generation & Renewables, Weather Correlation, and AI Price Intelligence. It is available on request as it is not publicly hosted.
-
-> 📩 Reach out via GitHub or LinkedIn if you'd like a walkthrough.
-
+The Power BI dashboard covers four pages — Price Intelligence, Generation & Renewables, Weather Correlation, and AI Price Intelligence. It is available at [this link](https://app.powerbi.com/view?r=eyJrIjoiNWMxZjMxOTYtODQ0Yy00YjI2LWI5NTEtNGQyZWRkMWM0NGFjIiwidCI6IjQzNjVmODBiLWJjYzktNDIwOS05OGJlLTgzZjk0MDNjMTg1MSJ9).
 ---
 
 ## Data Coverage
