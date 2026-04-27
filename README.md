@@ -4,7 +4,7 @@
 
 After hearing the same debate over and over, I decided to stop speculating and look at the data. The answer was clear — every Melbourne zone rates **A-tier** for solar viability against international benchmarks, with an average payback period of around **6 years**. But that answer opened a much bigger question: what's actually going on inside Victoria's electricity market? This project is that deeper investigation.
 
-**3 years of Victorian grid data. 26,156 hours. A full medallion pipeline on Azure Databricks. Three ML models. One Power BI dashboard.**
+**5 years of Victorian grid data. 26,156 hours. A full medallion pipeline on Azure Databricks. Three ML models. One Power BI dashboard.**
 
 ---
 
